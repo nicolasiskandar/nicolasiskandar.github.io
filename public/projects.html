@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Nicolas Iskandar</title>
+  <link rel="icon" href="assets/icon.jpg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="mobile-header">
+      <button class="burger-menu" aria-label="Toggle navigation">☰</button>
+      <a href="about.html" class="mobile-identity">
+        <span>Nicolas Iskandar</span>
+      </a>
+    </div>
+
+    <div class="sidebar">
+      <div class="desktop-sidebar-header">
+        <a href="about.html" class="sidebar-image">
+          <span class="sidebar-title">Nicolas Iskandar</span>
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="about.html" class="nav-item">About</a>
+        <a href="projects.html" class="nav-item active">Projects</a>
+        <a href="bookshelf.html" class="nav-item">Bookshelf</a>
+        <a href="courseshelf.html" class="nav-item">Courseshelf</a>
+      </div>
+    </div>
+    <div class="main-content wide">
+      <h1>Projects</h1>
+
+      <section>
+        <blockquote>
+          <p>
+            What I cannot create, I do not understand - Richard Feynman
+          </p>
+        </blockquote>
+
+        <!-- CONTENT_START -->
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/raft-kv-store-logo.png" alt="Raft KV Store" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Raft KV Store</h3>
+                <p class="project-card-desc">Resilient distributed key-value store built on the Raft consensus algorithm, featuring leader elections, log replication, fault tolerance, snapshotting, log compaction, TCP networking, and linearizability testing with Jepsen-style fault injection</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Rust</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/raft-kv-store" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/bracha-rbc-logo.jpg" alt="Bracha Byzantine Reliable Broadcast" class="project-card-img img-cover" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Bracha Byzantine Reliable Broadcast</h3>
+                <p class="project-card-desc">Implementation of Bracha's asynchronous Byzantine Reliable Broadcast protocol in Rust, featuring fault-tolerant message propagation, adversarial network simulation, Byzantine fault injection, TCP networking, and a Coq formal specification with machine-checked integrity and quorum-intersection proofs</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Rust, Coq</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/bracha-rbc" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/os-lab-logo.jpg" alt="OS Lab" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">OS Lab</h3>
+                <p class="project-card-desc">Collection of low-level systems programming projects for Linux and x86, featuring a bootable 32-bit kernel, container runtime using Linux namespaces, custom filesystem, preemptive threading runtime, real-time scheduling algorithms, memory allocator, and UNIX shell, with hand-written assembly context switching and memory routines</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">C, Assembly</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/os-lab" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/minipytorch-logo.png" alt="MiniPyTorch" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">MiniPyTorch</h3>
+                <p class="project-card-desc">Minimal PyTorch-like deep learning library featuring Linear and convolutional layers, pooling, activation functions, explicit forward/backward propagation, SGD and Adam optimizers, and model serialization, with a NumPy frontend backed by C++17 and hand-written x86-64 assembly kernels</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Python, C++, Assembly</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/minipytorch" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/sat-solver-logo.jpg" alt="SAT Solver" class="project-card-img img-cover" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">SAT Solver</h3>
+                <p class="project-card-desc">Boolean satisfiability solver implemented from scratch, featuring exhaustive enumeration, DPLL with unit propagation and pure-literal elimination, and CDCL with watched literals, first-UIP conflict analysis, non-chronological backtracking, and VSIDS branching, validated through property-based differential testing</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">OCaml</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/sat-solver" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/nabla-logo.png" alt="Nabla" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Nabla</h3>
+                <p class="project-card-desc">Compiled programming language for numerical computing featuring native matrix and array types, gradient and Jacobian computation via central finite differences, linear algebra operations, built-in statistical functions, and an LLVM-based JIT compiler</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">C++, LLVM</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/nabla" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/neuralprover-logo.png" alt="Neural Prover" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Neural Prover</h3>
+                <p class="project-card-desc">LoRA fine-tuned language model for Lean 4 theorem proving, featuring next-tactic prediction, bounded best-first proof search, goal-aware tactic ranking, Mathlib proof-data extraction and preprocessing, and kernel-verified proof generation with automated axiom checks</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Python, Lean</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/neuralprover" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/load-balancer-logo.png" alt="Load Balancer" class="project-card-img img-cover" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Load Balancer</h3>
+                <p class="project-card-desc">Load balancer with round-robin scheduling and active health checks</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">C++</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/load-balancer" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/parallel-algorithms-logo.jpg" alt="Parallel Algorithms" class="project-card-img img-cover" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Parallel Algorithms</h3>
+                <p class="project-card-desc">Parallel Algorithms implementations showcasing concurrency and multithreading</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Java</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/parallel-algorithms" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/game-of-life-logo.png" alt="Game of Life" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Game of Life</h3>
+                <p class="project-card-desc">Modular implementation of Conway's Game of Life in OCaml, featuring dense array-based and sparse set-based simulation engines, toroidal boundary handling, Run-Length Encoded pattern parsing, terminal animation, and graphical visualization</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">OCaml</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/game-of-life" class="project-link" target="_blank">GitHub</a>
+                    <a href="https://www.youtube.com/watch?v=a4c3ghskK5s" class="project-link project-link-demo" target="_blank">Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/proofs-logo.svg" alt="Proofs" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Proofs</h3>
+                <p class="project-card-desc">Formal verification project implementing machine-checked proofs of classical mathematical theorems in Lean 4, including Euclid's theorem, the Pigeonhole Principle, and inductive proof techniques</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Lean</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/proofs" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/ml-from-scratch-logo.png" alt="ML from Scratch" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">ML from Scratch</h3>
+                <p class="project-card-desc">From scratch implementations of classic ML algorithms</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Python</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/ml-from-scratch" class="project-link" target="_blank">GitHub</a>
+                    <a href="https://www.youtube.com/playlist?list=PL0C7PkqoHD_wM4obAuB-FQrVVYVhRlamt" class="project-link project-link-demo" target="_blank">Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/optimization-dynamics-lab-logo.png" alt="Optimization Dynamics Lab" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Optimization Dynamics Lab</h3>
+                <p class="project-card-desc">From scratch numerical optimization framework implementing GD, momentum, Newton, SGD, backtracking line search, golden section, penalty, and Lagrange multipliers with finite-difference Gradient and Hessian estimation</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Python</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/optimization-dynamics-lab" class="project-link" target="_blank">GitHub</a>
+                    <a href="https://www.youtube.com/watch?v=slsHDTdmXA4" class="project-link project-link-demo" target="_blank">Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/matrix-intelligence-lab-logo.png" alt="Matrix Intelligence Lab" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Matrix Intelligence Lab</h3>
+                <p class="project-card-desc">Linear algebra framework implementing PCA, LU decomposition with partial pivoting, QR decomposition via Modified Gram-Schmidt, SVD image compression, and matrix factorization recommender system</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Python</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/matrix-intelligence-lab" class="project-link" target="_blank">GitHub</a>
+                    <a href="https://www.youtube.com/watch?v=E6KKdT5BZ_4" class="project-link project-link-demo" target="_blank">Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/bayesian-inference-lab-logo.jpg" alt="Bayesian Inference Lab" class="project-card-img img-cover" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Bayesian Inference Lab</h3>
+                <p class="project-card-desc">From-scratch Bayesian inference library implementing probability distributions, Metropolis-Hastings, Gibbs sampling, Hamiltonian Monte Carlo, NUTS, conjugate Bayesian inference, posterior predictive analysis, convergence diagnostics, and reverse-mode automatic differentiation</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Python</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/bayesian-inference-lab" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/tic-tac-toe-logo.png" alt="Tic Tac Toe AI" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Tic Tac Toe AI</h3>
+                <p class="project-card-desc">Unbeatable Tic Tac Toe AI using the Minimax algorithm</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">C++</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/tic-tac-toe-ai" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/flappy-bird-ai-logo.png" alt="Flappy Bird AI" class="project-card-img img-cover" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">Flappy Bird AI</h3>
+                <p class="project-card-desc">Flappy Bird-playing AI trained using NeuroEvolution of Augmenting Topologies (NEAT), featuring evolutionary neural network training, deterministic headless simulation, real-time visualization, and saved-genome replay</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Python</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/flappy-bird-ai" class="project-link" target="_blank">GitHub</a>
+                    <a href="https://www.youtube.com/watch?v=7eUKCkaT8Z8" class="project-link project-link-demo" target="_blank">Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-card-image">
+                <img src="assets/projects/eeg-cognitive-state-decoder-logo.jpg" alt="EEG Cognitive-State Decoder" class="project-card-img" />
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-card-title">EEG Cognitive-State Decoder</h3>
+                <p class="project-card-desc">EEG-based mental workload classification using the STEW dataset, featuring signal preprocessing, spectral feature extraction, classical ML baselines, CNN-based neural decoding, subject-independent evaluation, statistical significance testing, and ablation studies</p>
+                <div class="project-card-footer">
+                  <span class="project-card-lang">Python</span>
+                  <div class="project-card-links">
+                    <a href="https://github.com/nicolasiskandar/eeg-cognitive-state-decoder" class="project-link" target="_blank">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CONTENT_END -->
+      </section>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

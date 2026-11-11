@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150">
+  <rect width="300" height="150" fill="#1a1a2e"/>
+  <text x="150" y="95" font-family="serif" font-size="80" fill="#e94560" text-anchor="middle" font-style="italic">&#8711;</text>
+  <text x="150" y="125" font-family="sans-serif" font-size="18" fill="#a0a0b0" text-anchor="middle" letter-spacing="4">NABLA</text>
+</svg>
