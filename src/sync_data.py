@@ -38,6 +38,9 @@ def generate_html_section(categories, intro_text):
     return '\n'.join(lines)
 
 
+def generate_flat_section(items):
+    return _render_resource_list(items)
+
 def generate_project_cards(projects):
     lines = []
     lines.append('          <div class="projects-grid">')
@@ -96,7 +99,7 @@ def main():
 
     # Update Courseshelf
     if 'courseshelf' in data:
-        courses_html = generate_html_section(data['courseshelf'], "A collection of courses I've studied.")
+        courses_html = generate_flat_section(data['courseshelf'])
         update_file(os.path.join(public_dir, 'courseshelf.html'), courses_html)
 
     # Update Projects

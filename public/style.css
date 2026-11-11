@@ -72,7 +72,13 @@ body {
 }
 
 .sidebar {
-  width: 250px;
+  position: sticky;
+  top: 0;
+  width: 302px;
+  height: 100vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+  align-self: flex-start;
   background-color: var(--surface);
   padding: 20px;
   border-right: 1px solid var(--border);
@@ -319,6 +325,10 @@ html[data-theme="dark"] .theme-icon-moon {
 
 .resource-link:hover {
   color: var(--accent-hover);
+}
+
+html[data-theme="dark"] .resource-link img {
+  filter: brightness(0) invert(1);
 }
 
 .icon-link {
