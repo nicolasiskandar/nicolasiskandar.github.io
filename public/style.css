@@ -400,6 +400,14 @@ html[data-theme="dark"] .resource-link img {
   background: #FFF;
 }
 
+.project-card-img[src="assets/projects/eeg-cognitive-state-decoder-logo.jpg"] {
+  background: #FFF;
+}
+
+.project-card-img[src="assets/projects/tic-tac-toe-logo.png"] {
+  background: #FFF;
+}
+
 .project-card-img[src="assets/projects/nabla-logo.png"] {
   background: #00003F;
 }
