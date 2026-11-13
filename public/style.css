@@ -396,6 +396,14 @@ html[data-theme="dark"] .resource-link img {
   background: #0D1117;
 }
 
+.project-card-img[src="assets/projects/os-lab-logo.jpg"] {
+  background: #FFF;
+}
+
+.project-card-img[src="assets/projects/nabla-logo.png"] {
+  background: #00003F;
+}
+
 .project-card-img[src="assets/projects/load-balancer-logo.png"] {
   object-fit: scale-down;
   padding: 12px;
