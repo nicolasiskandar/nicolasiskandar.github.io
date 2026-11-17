@@ -149,6 +149,8 @@ courseshelf:
     link: "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/"
   - name: "Stanford Algorithms"
     link: "https://www.coursera.org/specializations/algorithms/"
+  - name: "Cornell CS 3110: Data Structures and Functional Programming"
+    link: "https://cs3110.github.io/textbook/cover.html"
 
   - name: "Stanford Machine Learning"
     link: "https://www.coursera.org/specializations/machine-learning-introduction"
