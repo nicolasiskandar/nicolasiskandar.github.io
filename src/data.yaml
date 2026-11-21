@@ -123,6 +123,8 @@ bookshelf:
             link: "https://arxiv.org/abs/2206.14858"
           - name: "A Mathematical Framework for Transformer Circuits"
             link: "https://transformer-circuits.pub/2021/framework/index.html"
+          - name: "Learning representations by back-propagating errors"
+            link: "https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf"
 
 courseshelf:
   - name: "MIT 18.01: Single Variable Calculus"
