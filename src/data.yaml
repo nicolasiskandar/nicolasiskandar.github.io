@@ -139,6 +139,8 @@ courseshelf:
   - name: "Harvard Stat 110: Probability"
     link: "https://stat110.hsites.harvard.edu/"
 
+  - name: "MIT 6.001: Structure and Interpretation of Computer Programs"
+    link: "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/"
   - name: "MIT 6.0001: Introduction to Computer Science and Programming in Python"
     link: "https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/"
   - name: "MIT 6.004: Computation Structures"
