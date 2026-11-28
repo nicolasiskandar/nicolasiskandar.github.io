@@ -396,15 +396,10 @@ html[data-theme="dark"] .resource-link img {
   background: #0D1117;
 }
 
-.project-card-img[src="assets/projects/os-lab-logo.jpg"] {
-  background: #FFF;
-}
-
-.project-card-img[src="assets/projects/eeg-cognitive-state-decoder-logo.jpg"] {
-  background: #FFF;
-}
-
-.project-card-img[src="assets/projects/tic-tac-toe-logo.png"] {
+.project-card-img[src="assets/projects/os-lab-logo.jpg"],
+.project-card-img[src="assets/projects/eeg-cognitive-state-decoder-logo.jpg"],
+.project-card-img[src="assets/projects/tic-tac-toe-logo.png"],
+.project-card-img[src="assets/projects/ml-from-scratch-logo.png"] {
   background: #FFF;
 }
 
